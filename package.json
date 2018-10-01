@@ -26,8 +26,8 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-coming-soon.git"
     },
     "scripts": {
-        "dev":"gulp dev",
-        "build":"gulp"
+        "dev": "gulp dev",
+        "build": "gulp"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
