@@ -18,10 +18,9 @@ body {
   position: relative;
   font-family: 'Source Sans Pro';
   font-weight: 300;
-  background-image: url("https://images.pexels.com/photos/1250655/pexels-photo-1250655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("https://images.pexels.com/photos/935869/pexels-photo-935869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .overlay {
