@@ -1,1 +1,0 @@
-Dr. José Daniel Guerra

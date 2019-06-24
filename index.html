@@ -1,111 +1,1082 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
   <title>Dr. José Daniel Guerra</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/manifest.json">
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <!-- FancyBox -->
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+
+  <!-- Stylesheets -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70305604-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-70305604-2');
-  </script>
 
 </head>
 
+
 <body>
-  
-  <div class="overlay"></div>
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <img class="logo" src="https://i.pinimg.com/originals/e5/b5/aa/e5b5aa986ebd14fc351ebfe653c2096f.png" style="">
-            <h1 class="mb-3">¡Muy pronto!</h1>
-            <p class="mb-5">Estamos trabajando para relanzar nuestro sitio. Espéralo en
-              <strong>diciembre de 2018.</strong></p>
-            <!-- <div class="input-group input-group-newsletter">
-                <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
-                <div class="input-group-append">
-                  <button class="btn btn-secondary" type="button">Notify Me!</button>
-                </div> -->
+  <div class="page-wrapper">
+    <!-- Preloader -->
+    <!-- <div class="preloader"></div> -->
+    <!-- Preloader -->
+
+
+
+<!--header top-->
+<div class="header-top">
+      <div class="container clearfix">
+            <div class="top-left">
+                  <h6>Horario de servicio: lunes a viernes - 8am a 6pm. </h6>
+            </div>
+            <div class="top-right">
+                  <ul class="social-links">
+                        <li>
+                              <a target="_blank" href="https://www.facebook.com/dr.josedanielguerra/">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                              </a>
+                        </li>
+                        <li>
+                              <a target="_blank" href="https://twitter.com/drjdanielguerra">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                              </a>
+                        </li>
+                        <li>
+                              <a target="_blank" href="https://www.instagram.com/dr.josedanielguerra/">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                              </a>
+                        </li>
+
+                  </ul>
+            </div>
+      </div>
+</div>
+<!--header top-->
+
+<!--Header Upper-->
+<section class="header-uper">
+      <div class="container clearfix">
+            <div class="logo">
+                  <figure>
+                        <a href="index.html">
+                              <img src="images/logo.png" alt="" width="180">
+                        </a>
+                  </figure>
+            </div>
+            <div class="right-side">
+                  <ul class="contact-info">
+                        <li class="item">
+                              <div class="icon-box">
+                                    <i class="fa fa-envelope-o"></i>
+                              </div>
+                              <strong>Email</strong>
+                              <br>
+                              <a href="mailto:dr.josedanielguerra@gmail.com">
+                                    <span>dr.josedanielguerra@gmail.com</span>
+                              </a>
+                        </li>
+                        <li class="item">
+                              <div class="icon-box">
+                                    <i class="fa fa-phone"></i>
+                              </div>
+                              <strong>Teléfono</strong>
+                              <br>
+                              <a href="tel:+52 81 8318 6897">+52 81 8318 6897 y 74</a>
+                        </li>
+                  </ul>
+                  <div class="link-btn">
+                        <a href="appointment.html" class="btn-style-one">Citas</a>
+                  </div>
+            </div>
+      </div>
+</section>
+<!--Header Upper-->
+
+
+<!--Main Header-->
+<nav class="navbar navbar-default">
+      <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <div style="display:-webkit-inline-box">
+<a href="index.html"><img src="images/logo-2.png" style="width:200px;padding:10px;"></a> </div>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                        <li class="active">
+                              <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                              <a href="about.html">Acerca de</a>
+                        </li>
+                        <li>
+                              <a href="service.html">Procedimientos</a>
+                        </li>
+                        <li>
+                              <a href="appointment.html">Agenda una cita</a>
+                        </li>
+                        <li>
+                              <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                              <a href="contact.html">Contacto</a>
+                        </li>
+                        <!-- <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown
+                                    <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                    <li>
+                                          <a href="#">Action</a>
+                                    </li>
+                                    <li>
+                                          <a href="#">Another action</a>
+                                    </li>
+                                    <li>
+                                          <a href="#">Something else here</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                          <a href="#">Separated link</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                          <a href="#">One more separated link</a>
+                                    </li>
+                              </ul>
+                        </li> -->
+                  </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+</nav>
+<!--End Main Header -->
+
+<!--=================================
+=            Page Slider            =
+==================================-->
+<div class="hero-slider">
+    <!-- Slider Item -->
+    <div class="slider-item slide1" style="background-image:url(images/slider/slider-bg-1.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Slide Content Start -->
+                    <div class="content style text-right">
+                        <p class="fa fa-stethoscope" style="font-size:80px!important;"> </p>
+                        <h2 class="text-white text-bold mb-2">Dr. José Daniel Guerra</h2>
+                        <p class="tag-text mb-5">Cirujano plástico </p>
+                        <!-- <a href="#" class="btn btn-main btn-white">sobre mi</a> -->
+                    </div>
+                    <!-- Slide Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slider Item -->
+<!--  <div class="slider-item" style="background-image:url(images/slider/slider-bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                     Slide Content Start
+                    <div class="content style text-right">
+                        <h2 class="text-white">We Care About <br>Your Health</h2>
+                        <p class="tag-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <a href="#" class="btn btn-main btn-white">about us</a>
+                    </div>
+                   Slide Content End
+                </div>
+            </div>
+        </div>
+    </div>
+    Slider Item
+    <div class="slider-item" style="background-image:url(images/slider/slider-bg-3.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                   Slide Content Start
+                    <div class="content text-center style">
+                        <h2 class="text-white text-bold mb-2">Best Medical Services</h2>
+                        <p class="tag-text mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae deserunt,
+                            <br>eius pariatur minus itaque nostrum.</p>
+                        <a href="shop.html" class="btn btn-main btn-white">shop now</a>
+                    </div>
+                      Slide Content End
+                </div>
+            </div>
+        </div>
+      -->
+    </div>
+</div>
+
+<!--====  End of Page Slider  ====-->
+
+
+
+<!--about section-->
+<section class="feature-section section bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-xs-12">
+				<div class="image-content">
+					<div class="section-title text-center">
+						<h3>Procedimientos
+							<span>más solicitados</span>
+						</h3>
+						<p>El Doctor realiza diariamente procedimientos casi rutinarios. <br>
+							Estos son los más populares actualmente.</p>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img class="px50" src="images/resource/1.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Bótox</h6>
+								<p>La toxina botulínica es una neurotoxina elaborada por una bacteria denominada Clostridium botulinum. Se utiliza como producto cosmético para tratamiento estético de las arrugas faciales pues tiene la capacidad de producir parálisis muscular.</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img class="px50" src="images/resource/2.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Rinoplastía</h6>
+								<p>Es una intervención quirúrgica en la que se resuelven principalmente los problemas estéticos de la nariz como el hueso que sobresale del dorso de la nariz, desviaciones o malformaciones congénitas. Obtén la nariz más natural que siempre quisiste.</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img class="px50" src="images/resource/3.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Rejuvenecimiento Facial</h6>
+								<p>Más que conseguir un rostro sin arrugas haciendo evidente la intervención quirúrgica, el objetivo del rejuvenecimiento facial es <b>atenuar las señales del paso del tiempo</b> a través de diferentes tratamientos.</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="#">
+											<img class="px50" src="images/resource/4.png" alt="">
+										</a>
+									</figure>
+								</div>
+								<h6>Lipotransferencia</h6>
+								<p>Un tratamiento estético que consiste en extraer grasa de partes del cuerpo en las que sobra (principalmente abdomen y caderas) para despuésinyectarla en otras partes del cuerpo (como gluteos).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--End about section-->
+
+<!--Start about us area-->
+<section class="service-tab-section section">
+    <div class="outer-box clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Nav tabs -->
+                    <div class="tabs">
+                        <ul class="nav nav-tabs" role="tablist">
+
+                            <li role="presentation" class="active">
+                                <a href="#plastica"  data-toggle="tab">plástica</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#reconstructiva" data-toggle="tab">reconstructiva</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#postbariatrica" data-toggle="tab">post bariátrica</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#noquirurgica" data-toggle="tab">no quirúrgica</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Start single tab content-->
+                    <div class="tab-content">
+                        <div class="service-box tab-pane fade in active row" id="plastica">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-one.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>plástica</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>Orientada a la mejora de la apariencia de ciertas partes del cuerpo por medio de procedimientos quirúrgicos.</p>
+                                        <p>Se relacióna con la <b><a data-toggle="tab" href="#noquirurgica">medicina estética</a></b>, que también tiene como fin mejorar la apariencia física, empleando prácticas de pequeño intervencionismo, en las que se emplea anestesia tópica o local y en régimen ambulatorio.</p>
+                                    </div>
+                                    <ul class="content-list">
+                                        <li><i class="fa fa-dot-circle-o"></i>Cirugía plástica para ella</li>
+                                        <ul>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;" ><i class="fa fa-eye"></i>Facial</li>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;"><i class="fa fa-user-o"></i>Corporal</li>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;"><i class="fa fa-female"></i>Mamaria</li>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;"><i class="fa fa-venus"></i>Íntima</li>
+                                              </ul>
+                                        <li><i class="fa fa-dot-circle-o"></i>Cirugía plástica para él</li>
+                                        <ul>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;"><i class="fa fa-eye"></i>Facial</li>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;"><i class="fa fa-user-o"></i>Corporal</li>
+                                                <li style="padding:0px;font-size:13px;line-height:19px;"><i class="fa fa-male"></i>  Pecho</li>
+                                              </ul>
+                                    </ul>
+                                    <a href="service-plastica.html" class="btn btn-style-one">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="reconstructiva">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-two.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>reconstructiva</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>Está enfocada en disimular y reconstruir los efectos destructivos de un accidente o trauma, los defectos de una malformación congénita y de una resección tumoral u oncológica.</p>
+                                        <p>La cirugía reconstructiva o reparadora hace uso de distintas técnicas: de osteosíntesis, de traslado de tejidos mediante colgajos y trasplantes autólogos de partes del cuerpo sanas a las afectadas, etc.</p>
+                                    </div>
+                                    <h4 style="padding:10px 0;">Procedimientos.</h4>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Eliminación de Lunares</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Cáncer de Piel</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Cirugía por Quemaduras</li>
+                                    </ul>
+                                    <!--<a href="#" class="btn btn-style-one">Ver más</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="postbariatrica">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-three.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>post bariátrica</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>Esta cirugía se realiza en pacientes que se sometieron a la cirugía bariátrica y perdieron entre un 40% y 60% de su peso original. </p> <p> Posteriormente requieren de la <b>cirugía plástica</b> para corregir los excesos de tejido cutáneo tras esta significativa baja de peso. </p>
+                                    </div>
+                                    <h4 style="padding:10px 0;">Beneficios.</h4>
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Remover el exceso de piel colgante.</li>
+
+                                    </ul>
+                                    <!--<a href="#" class="btn btn-style-one">Ver más</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+                        <div class="service-box tab-pane fade in" id="noquirurgica">
+                            <div class="col-md-6">
+                                <img class="img-responsive" src="images/services/service-four.jpg" alt="service-image">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contents">
+                                    <div class="section-title">
+                                        <h3>no quirúrgica</h3>
+                                    </div>
+                                    <div class="text">
+                                        <p>Tiene como fin mejorar la apariencia física, mantener y promover la estética, belleza y salud. Se emplean prácticas de pequeño intervencionismo, en las que se emplea anestesia tópica o local y en régimen ambulatorio.</p>
+                                        <p>Nunca utiliza técnicas de cirugía mayor ni que requieran anestesia general.</p>
+                                    </div>
+
+                                    <h4 style="padding:10px 0;">Beneficios.</h4>
+
+                                    <ul class="content-list">
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Botox y Baby Botox (Toxina Botulínica)</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Rellenos faciales</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Dermoabrasión</li>
+                                        <li>
+                                            <i class="fa fa-dot-circle-o"></i>Plasma rico en plaquetas</li>
+                                    </ul>
+                                    <!--<a href="#" class="btn btn-style-one">Ver más</a>-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--End single tab content-->
+                        <!--Start single tab content-->
+
+                        <!--End single tab content-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End about us area-->
+
+<!--Service Section-->
+<section class="service-section bg-gray section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Cirugía
+                <span>Facial</span>
+            </h3>
+            <p>Cirugía plástica.</p>
+        </div>
+        <div class="row items-container clearfix">
+
+
+
+
+          <div class="item">
+              <div class="inner-box">
+                  <div class="img_holder">
+                      <a href="service-plastica-facial-implantespomulomenton.html">
+                          <img src="images/gallery/8.jpg" alt="images" class="img-responsive">
+                      </a>
+                  </div>
+                  <div class="image-content text-center">
+                      <span>Cirugía Facial</span>
+                      <a href="service-plastica-facial-implantespomulomenton.html">
+                          <h6>Implantes de Pómulo y Mentón</h6>
+                      </a>
+                      <p>Armoniza los rasgos faciales al dar volumen en los pómulos y el mentón.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="item">
+              <div class="inner-box">
+                  <div class="img_holder">
+                      <a href="service-plastica-facial-blefaroplastia.html">
+                          <img src="images/gallery/1-2.jpg" alt="images" class="img-responsive">
+                      </a>
+                  </div>
+                  <div class="image-content text-center">
+                      <span>Cirugía Facial</span>
+                      <a href="service-plastica-facial-blefaroplastia.html">
+                          <h6>Blefaroplastía</h6>
+                      </a>
+                      <p>Cirugía de párpados. Es un procedimiento quirúrgico que tiene como objetivo rejuvenecer la mirada.</p>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service-plastica-facial-ritidectomia.html">
+                            <img src="images/gallery/3.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Cirugía Facial</span>
+                        <a href="service-plastica-facial-ritidectomia.html">
+                            <h6>Ritidectomía</h6>
+                        </a>
+                        <p>Cirugía de rejuvenecimiento facial. Un procedimiento para mejorar los signos visibles de envejecimiento de cara y cuello.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service-plastica-facial-rinoplastia.html">
+                            <img src="images/gallery/2.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Cirugía Facial</span>
+                        <a href="service-plastica-facial-rinoplastia.html">
+                            <h6>Rinoplastía</h6>
+                        </a>
+                        <p>Cirugía de la nariz. Es una operación utilizada para producir cambios en el aspecto, estructura y función de la nariz.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service-plastica-facial-otoplastia.html">
+                            <img src="images/gallery/4.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Cirugía Facial</span>
+                        <a href="service-plastica-facial-otoplastia.html">
+                            <h6>Otoplastía</h6>
+                        </a>
+                        <p>Esta cirugía corrige las orejas en "asa" o prominentes. Tiende a ser una cirugía completamente estética.</p>
+                    </div>
+                </div>
+            </div>
+
+<!--
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service-plastica-facial-lobuloplastia.html">
+                            <img src="images/gallery/5.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Cirugía Facial</span>
+                        <a href="service-plastica-facial-lobuloplastia.html">
+                            <h6>Lobuloplastía</h6>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, vero.</p>
+                    </div>
+                </div>
+            </div>
+-->
+
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service-plastica-facial-lipoesculturadecuello.html">
+                            <img src="images/gallery/6.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Cirugía Facial</span>
+                        <a href="service-plastica-facial-lipoesculturadecuello.html">
+                            <h6>Lipoescultura de Cuello</h6>
+                        </a>
+                        <p>Obten un mejor perfil al reducir el abultamiento situado bajo el mentón, mejor conocido como papada.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="item">
+                <div class="inner-box">
+                    <div class="img_holder">
+                        <a href="service-plastica-facial-bichectomia.html">
+                            <img src="images/gallery/7.jpg" alt="images" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="image-content text-center">
+                        <span>Cirugía Facial</span>
+                        <a href="service-plastica-facial-bichectomia.html">
+                            <h6>Bichectomía</h6>
+                        </a>
+                        <p>El adelgazamiento facial mediante la resección de las bolsas de Bichat se traduce en una mejor definición del contorno facial.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+<!--End Service Section-->
+
+<!--team section-->
+<section class="team-section section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Conoce al
+                <span>experto</span>
+            </h3>
+
+        </div>
+        <div class="row">
+
+          <div class="col-md-4 col-sm-4 col-xs-12"></div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="team-member">
+                    <img src="images/team/doctor-1.jpg" alt="doctor" class="img-responsive">
+                    <div class="contents text-center">
+                        <h4>Dr. José Daniel Guerra Rendón</h4>
+                        <p>Reconocido cirujano plástico. Poniendo siempre primero el bienestar de sus pacientes el doctor Guerra ha logrado...</p>
+                        <a href="about.html" class="btn btn-main">Conoce más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12"></div>
+
+
+        </div>
+    </div>
+</section>
+<!--End team section-->
+
+<!--testimonial-section
+<section class="testimonial-section" style="background: url(images/testimonials/1.jpg);">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Qué dicen
+                <span>los pacientes</span>
+            </h3>
+        </div>
+        <div class="testimonial-carousel">
+
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/1.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>Adam Rose</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+            <!--Slide Item
+
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/2.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>David Warner</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/3.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>Amy Adams</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/1.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>Adam Rose</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/2.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>David Warner</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/3.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>Amy Adams</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/1.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>Adam Rose</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/2.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>David Warner</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+            <!--Slide Item
+            <div class="slide-item">
+                <div class="inner-box text-center">
+                    <div class="image-box">
+                        <figure>
+                            <img src="images/testimonials/3.png" alt="">
+                        </figure>
+                    </div>
+                    <h6>Amy Adams</h6>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End testimonial-section-->
+
+
+
+
+
+<!-- Contact Section -->
+<section class="appoinment-section section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="accordion-section">
+    <div class="section-title">
+        <h3>Preguntas <span>frecuentes</span></h3>
+    </div>
+    <div class="accordion-holder">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          ¿Por qué elegir al Dr. Guerra como mi cirujano?</a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        El Dr. José Daniel Guerra Rendón es un cirujano plástico certificado por el Consejo Mexicano de Cirugía Plástica, Estética y Reconstructiva y miembro de la Asociaciones Americana y Mexicana de Cirugía Plástica (ASPS y AMCPER). Además cuenta con un gran número de estudios alternos, cursos, fellows, y ha acudido a diversos congresos de cirugía plástica, lo que lo hace estar al día con los nuevos procedimientos para una óptima recuperación y un excelente resultado que lo diferencía de otros doctores de la misma rama. El Dr. Guerra es una persona áltamente preparada y dedica su vida a la medicina y a sus pacientes. Es un doctor que verdaderamente estará al pendiente de ti antes, durante, y después de tus procedimientos. Atenderá personalmente cualquiera duda o inquietud que tengas durante tu proceso mediante mensajes, correo o por una llamada telefónica. Te sentirás en absoluta confianza desde que entres a su consultorio y sabrás que estas en las mejores manos. El Dr. Jose Daniel Guerra y su equipo te invitamos a que acudas al consultorio para que vivas por experiencia propia la atención de la más alta calidad que te mereces, y así, puedas vivenciar los mejores resultador que la cirugía plástica y el Dr. Guerra te ofrecen.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            ¿Cómo saber si soy candidato?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        Para saber si eres candidato a un procedimiento, es sumamente importante hacer una valoración personal en el consultorio. El Dr. Guerra y su equipo, te invitan al consultorio para que nos conozcas, saber de tus expectativas y así podamos resolver todas tus dudas e inquietudes. El Dr. Guerra te hará saber si eres candidato al procedimiento que tienes en mente realizarte, o bien, te recomendará la mejor opción para ti.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            ¿Hay formas especiales de pago?
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        En el consultorio aceptamos todo tipo de tarjeta de debito y/o crédito. Aceptamos efectivo en pesos mexicanos y en doláres americanos, así como transferencias bancarias a cuenta mexicana y americana. Pregunta por nuestras promociones eventuales de pago a meses sin intereses y otras que no podrás resistir.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Contact Section -->
+
+<!--squares section
+
+
+<section class="cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cta-block">
+                    <div class="emmergency item">
+                        <i class="fa fa-phone"></i>
+                        <h2>Emergencias</h2>
+                        <a href="#">+52 81 8010 4073</a>
+                        <p>Contacto para emergencias 24/7.</p>
+                    </div>
+                    <div class="top-doctor item">
+                        <i class="fa fa-stethoscope"></i>
+                        <h2>24 Hour Service</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore dignissimos officia dicta suscipit vel eum</p>
+                        <a href="#" class="btn btn-main">Read more</a>
+                    </div>
+                    <div class="working-time item">
+                        <i class="fa fa-hourglass-o"></i>
+                        <h2>Working Hours</h2>
+                        <ul class="w-hours">
+                            <li>Mon - Fri  - <span>8:00 - 17:00</span></li>
+                            <li>Mon - Fri  - <span>8:00 - 17:00</span></li>
+                            <li>Mon - Fri  - <span>8:00 - 17:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+-->
+
+<!--footer-main-->
+<footer class="footer-main">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div style="padding-bottom:20px;" class="col-md-4 col-sm-6 col-xs-12">
+          <div class="about-widget">
+            <div class="footer-logo">
+              <figure>
+                <a href="index.html">
+                  <img src="images/logo-2.png" alt="">
+                </a>
+              </figure>
+            </div>
+          <!--  <p>Lorem ipsum tu mejor opción</p> -->
+            <ul class="location-link">
+              <li class="item">
+                <i class="fa fa-map-marker"></i>
+                <a target="_blank" href="https://goo.gl/maps/EMSAuZtV4vP2">
+                  <h5 style="color:#48bdc5!important;">Punto Central</h5>
+                </a>
+                <p>Av. De la Industria 300 Torre F, Local C-19<br>Col. Veredalta, San Pedro Garza García, NL </p>
+              </li>
+              <li class="item">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <a href="mailto:dr.josedanielguerra@gmail.com">
+                  <p>dr.josedanielguerra@gmail.com</p>
+                </a>
+              </li>
+              <li class="item">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a href="tel:+52 81 8318 6897">
+                  <p>+52 81 8318 6897 y 74</p>
+                  </a>
+              </li>
+              <li class="item">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <a href="tel:+52 81 8010 4073">
+                  <p>+52 81 8010 4073</p>
+                  </a>
+              </li>
+
+            </ul>
+            <ul class="list-inline social-icons">
+              <li><a target="_blank" href="https://www.facebook.com/dr.josedanielguerra/"><i class="fa fa-facebook"></i></a></li>
+              <li><a target="_blank" href="https://twitter.com/drjdanielguerra"><i class="fa fa-twitter"></i></a></li>
+              <li><a target="_blank" href="https://www.instagram.com/dr.josedanielguerra/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h6>Servicios</h6>
+          <ul class="menu-link">
+            <li>
+              <a href="service-plastica.html">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Cirugía Plástica</a>
+            </li>
+            <li>
+              <a href="service-reconstructiva.html">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Cirugía Reconstructiva</a>
+            </li>
+            <li>
+              <a href="service-postbariatrica.html">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Cirugía Post-Bariátrica</a>
+            </li>
+            <li>
+              <a href="service-noquirurgica.html">
+                <i class="fa fa-angle-right" aria-hidden="true"></i>Cirugía No Quirúrgica</a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="social-links">
+            <h6>Publicaciones Recientes</h6>
+            <ul>
+              <li class="item">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="single-blog-lunares.html">
+                      <img class="media-object px80" style="border-radius:100px;" src="images/blog/post-thumb-small1.jpg" alt="post-thumb">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading"><a href="single-blog-lunares.html">Lunares: ¡no los tomes a la ligera!</a></h4>
+                    <p>¿Cómo saber si un lunar debe ser removido? Conoce aquí las señales que debes monitorear.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="single-blog-botox.html">
+                      <img class="media-object px80" style="border-radius:100px;" src="images/blog/post-thumb-small2.jpg" alt="post-thumb">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="single-blog-botox.html">Botox: ¿Cuánto dura y cuál es el efecto de la inyección?</a>
+                    </h4>
+                    <p>La inyección del botox es uno de los tratamientos de belleza predilectos de muchas mujeres y hombres por igual.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="footer-bottom">
+    <div class="container clearfix">
+      <div class="copyright-text">
+        <p>&copy; Derechos Reservados 2018. Desarrollado por katy.design
+          <!-- <a href="#">katy.design</a> -->
+        </p>
+      </div>
+      <ul class="footer-bottom-link">
+        <li>
+          <a href="index.html">Inicio</a>
+        </li>
+        <li>
+          <a href="about.html">Acerca de</a>
+        </li>
+        <li>
+          <a href="contact.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
   </div>
+</footer>
+<!--End footer-main-->
 
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="https://twitter.com/drjdanielguerra">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="https://www.facebook.com/dr.josedanielguerra/">
-          <i class="fa fa-facebook"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="https://www.instagram.com/dr.josedanielguerra/">
-          <i class="fa fa-instagram"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="https://www.doctoralia.com.mx/medico/guerra+rendon+jose+daniel-15078634">
-          <i class="fa fa-user-md"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
+</div>
+<!--End pagewrapper-->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/vide/jquery.vide.min.js"></script>
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target=".header-top">
+  <span class="icon fa fa-angle-up"></span>
+</div>
 
+<script src="plugins/jquery.js"></script>
+<script src="plugins/bootstrap.min.js"></script>
+<script src="plugins/bootstrap-select.min.js"></script>
+<!-- Slick Slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- FancyBox -->
+<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+<!-- Google Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<script src="plugins/validate.js"></script>
+<script src="plugins/wow.js"></script>
+<script src="plugins/jquery-ui.js"></script>
+<script src="plugins/timePicker.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
